@@ -1,9 +1,10 @@
 const jwt = require('jsonwebtoken');
 const authConfig = require ('../config/auth');
 const alunas = require("../model/alunas.json");
-const bcrypt = require("bcrypt");
+//const bcrypt = require("bcrypt");
 
 function checkPassword(passwordEntry, password) {
+  console.log(passwordsEntry, )
   return bcrypt.compareSync(passwordEntry, password);
 }
 

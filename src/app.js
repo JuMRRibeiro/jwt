@@ -25,3 +25,5 @@ app.use("/professoras", professoras)
 app.use("/sessions", sessions)
 
 module.exports = app
+
+
